@@ -9,4 +9,8 @@ public class Mindstorms {
         LCD.clear();
         // to compile : nxjc Mindstorms.java | nxj -r -o Mindstorms.nxj Mindstorms
     }
+	
+	public static void drawStringToScreen(String text, int x, int y){
+		LCD.drawString(text, x, y)
+	}
 }
